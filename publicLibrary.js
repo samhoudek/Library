@@ -7,14 +7,13 @@ var publicLibrary = {
  
 var enshelf = function(book,shelf){
 	shelf.push(book);count++;
-	count: 0;
-	}
+	count: 0};
+	
 
 var unshelf = function(book,shelf){
 	shelf.push(book);count -1;
-	count:0};(end)
+	count:0};
 
 	
 var countBooktotal = function() {
-	  return library.count;
-}
+	  return library.count};
